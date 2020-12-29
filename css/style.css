@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Mono', monospace;
+}
+.header__logo{
+    color:white;
+    font-family: 'Fira Mono', monospace;
+   
+    font-size: 1.5rem;
+}
+.main{
+    background: #000000;
+    padding: 15px;
+}
+.container {
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.header__nav{
+    margin-right: 50px;
+}
+.header__nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    
+}
